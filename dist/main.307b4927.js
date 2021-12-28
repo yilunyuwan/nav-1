@@ -106,7 +106,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"epB2":[function(require,module,exports) {
 var sitesStr = localStorage.getItem('sitesStr');
 var sitesObj = JSON.parse(sitesStr);
-var hashMap = sitesObj || [{ logo: 'W', url: 'https://weibo.com' }, {
+var hashMap = sitesObj || [{
+    logo: '<svg class="icon" aria-hidden="true">\n        <use xlink:href="#icon-weibo"></use>\n    </svg>', url: 'https://weibo.com'
+}, {
     logo: '<svg class="icon" aria-hidden="true">\n                    <use xlink:href="#icon-bilibili-line"></use>\n                </svg>',
     url: 'https://www.bilibili.com'
 }, {
@@ -172,4 +174,4 @@ $(document).on('keypress', function (e) {
 
 render();
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.62c2a4b2.map
+//# sourceMappingURL=main.307b4927.map

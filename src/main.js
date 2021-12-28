@@ -1,6 +1,10 @@
 const sitesStr = localStorage.getItem('sitesStr')
 const sitesObj = JSON.parse(sitesStr)
-let hashMap = sitesObj || [{ logo: 'W', url: 'https://weibo.com' },
+let hashMap = sitesObj || [{
+    logo: `<svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-weibo"></use>
+    </svg>`, url: 'https://weibo.com'
+},
 {
     logo: `<svg class="icon" aria-hidden="true">
                     <use xlink:href="#icon-bilibili-line"></use>

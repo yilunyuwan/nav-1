@@ -27,9 +27,8 @@ body {
 
 @media (min-width:500px) {
     .globalHeader {
-        max-width   : 400px;
-        margin-left : auto;
-        margin-right: auto;
+        max-width: 400px;
+        margin   : 100px auto;
     }
 }
 
@@ -88,7 +87,8 @@ body {
     }
 
     .siteList>li {
-        margin-right: 25px;
+        margin-right : 25px;
+        margin-bottom: 25px;
     }
 
     .siteList .site>.close {
