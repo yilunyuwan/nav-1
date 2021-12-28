@@ -38,12 +38,13 @@ body {
 }
 
 .searchForm>input {
-    height      : 40px;
-    width       : 100%;
-    margin-right: 10px;
-    border      : 1px solid #ddd;
-    padding     : 0 8px;
-    font-size   : 16px;
+    height       : 40px;
+    width        : 100%;
+    margin-right : 10px;
+    border       : 1px solid #ddd;
+    border-radius: 4px;
+    padding      : 0 8px;
+    font-size    : 16px;
 }
 
 .searchForm>button {
@@ -108,6 +109,7 @@ body {
     flex-wrap       : no-wrap;
     position        : relative;
     cursor          : pointer;
+    border-radius   : 4px;
 }
 
 .siteList .site>.logo {
@@ -145,6 +147,7 @@ body {
     justify-content : center;
     align-items     : center;
     flex-direction  : column;
+    border-radius   : 4px;
 }
 
 .siteList .addButton .icon {
